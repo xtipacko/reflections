@@ -1,8 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
   git creates .git file with metadata, but no commits is done yet, 
   we can see it in the output of: git status
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  Staging area allows us to have more granular control over changes.
+  We can account for changes we want, and do't take into account other changes.
+  This also allows to keep commits small "one per logical change"
 
 How can you use the staging area to make sure you have one commit per logical
 change?
