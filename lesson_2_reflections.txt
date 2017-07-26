@@ -11,9 +11,27 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+ 
+  I will use it to select changes I want to commit. 
+  I can compare changes using git diff. 
+  If I need ot compare changes in working directory against staging area, I can
+  use:
+         "git diff" without parameters
+  If I need to compare changes in staging area against most recent commit, I can
+  use:
+         "git diff --staged"
+  If for some reason, I want to discard changes I have in staging area or 
+  working directory, I can use with caution:
+         "git reset --hard"
+  but it is irreversible!
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+  
+  e.g. I may have a need to add a new experimetal feature, 
+  or maybe change something in my program for a group of users,
+  or maybe use my files in some other very similar,
+  but different project.
 
 How do the diagrams help you visualize the branch structure?
 
