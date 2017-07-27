@@ -36,6 +36,8 @@ organized? How would branches help?
   Brahces also help people to collaborate in a team, e.g I can use branch to work on a new feature, or on fixing bug, or I can have separate "development branch". So that my work doesn't affect production code until I have completed it, and merged it with .
 
 How do the diagrams help you visualize the branch structure?
+  
+  Diagram helped me understand, what is 'detached HEAD' state, and how to create branch, when I've made commit after I checked out some previous commits...
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
