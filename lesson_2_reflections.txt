@@ -33,6 +33,8 @@ organized? How would branches help?
   or maybe use my files in some other very similar,
   but different project.
 
+  Brahces also help people to collaborate in a team, e.g I can use branch to work on a new feature, or on fixing bug, or I can have separate "development branch". So that my work doesn't affect production code until I have completed it, and merged it with .
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
