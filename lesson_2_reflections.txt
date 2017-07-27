@@ -41,6 +41,13 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+  
+  Changes in branches will be compared line by line, with regard to commit before "branches split". In result we will have:
+  sum(
+      +All lines, which we didn't change 
+      +All newly added lines (with regard to commit before split)
+      -All Deleted lines (with regard to commit before split).
+     )
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
